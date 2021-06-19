@@ -376,6 +376,11 @@ main {
     margin: 0.3rem;
     padding: 0.3rem;
 }
+.skill-card:hover{
+    display: flex;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
 
 .skill-card img {
     width: auto;
@@ -432,8 +437,8 @@ main {
 
 .card:hover {
     display: grid;
-    transform: scale(1.02);
-    transition: all 0.1s;
+    transform: scale(1.1);
+    transition: all 0.3s;
 }
 
 .card img {
